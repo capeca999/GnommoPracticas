@@ -1,0 +1,32 @@
+1-ng new myfirstapp //Crea un nuevo proyecto de angular
+
+2-Todo lo que debemos tocar en angular se situa dentro de src
+
+3-La carpeta de assets situamos todos los archivos estaticos de la aplicación
+
+4-Los componentes de angular siempre estan compuestos por 3 componentes, archivo typescript, css y html
+
+ 
+PASOS CREAR COMPONENTE
+
+
+1º Creamos tres ficheros, css, ts y html
+
+2º En el fichero de ts, ponemos esta linea para importar la creación de componentes
+
+import { Component }from '@angular/core';
+
+3º Creamos una clase
+
+
+Despues, en app.component.html podemos llamar a ese componente usando la etiqueta
+
+<hello-world> </hello-world>
+
+
+@Component({
+ selector: 'Hello-world'
+})
+class HelloWorld{
+
+}
